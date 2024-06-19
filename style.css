@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #548687;
+    text-align: center;
+}
+.container{
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    /* vmin is one percent of the parent */
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    font-size: 8vmin;
+    color: #b8413e;
+    background-color:rgb(235, 238, 217);
+}
+#reset-button{
+    margin-top: 3rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #FDDCAD; 
+    color: rgb(57, 47, 47);
+    border-radius: 1rem;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-size: 3rem;
+    color: #132b30;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.winner{
+    height: 50px;
+    width: 100%;
+    color: rgb(17, 76, 99);
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+} 
+.newgame{
+    width: 25vmin;
+    margin-top: 1rem;
+    margin: auto;
+    padding: 0.8rem;
+    font-size: 2rem;
+    background-color: #FDDCAD;
+    color: rgb(57, 47, 47);
+    border-radius: 1rem;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
